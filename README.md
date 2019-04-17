@@ -15,3 +15,5 @@ A project to record my utility tools and terminal commands.
 # GCloud
 
 - Copy files from bucket to local machine: ```gsutil cp -r gs://bucket_name/ /local/directory```
+
+- Download logs to local tile: ```gcloud logging read "resource.type=gae_app resource.labels.module_id=promox2019 logName=projects/pdbcontest/logs/appengine.googleapis.com%2Frequest_log" > log.json```
