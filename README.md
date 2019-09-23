@@ -22,3 +22,7 @@ A project to record my utility tools and terminal commands.
 
 - Zip file with password on UNIX: ```zip -er [archive] [folder]```
 
+# Tools
+
+- Lib to execute local security web application tests
+https://www.arachni-scanner.com/ | https://github.com/Arachni/arachni/wiki/Command-line-user-interface#version
