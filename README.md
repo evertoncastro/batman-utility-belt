@@ -22,6 +22,21 @@ A project to record my utility tools and terminal commands.
 
 - Zip file with password on UNIX: ```zip -er [archive] [folder]```
 
+# Mysql
+
+- Export Dump file in background
+
+```
+nohup nice mysqldump -h127.0.0.1 -u[user] -p[password] database table > file.sql &
+```
+This command will give you a PID
+Check the PID status with this command
+```
+ps aux | grep 1265
+```
+
+
+
 # Tools
 
 - Lib to execute local security web application tests
