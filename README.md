@@ -20,7 +20,7 @@ A project to record my utility tools and terminal commands.
 
 # FIles
 
-- Zip file with password on UNIX: ```zip -er [archive] [folder]```
+- Zip file with password on UNIX: ```zip -er [archive_to_be_created] [origim_file_or_folder]```
 
 # Mysql
 
